@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap'); 
+
 body, html {
   font-family: 'Big Shoulders Display', cursive;
 }
 
-
 *{
   padding: 0;
   margin: 0;
-  
 }
 
 .App{
