@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap'); 
+body, html {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+.App{
+  background-color: hsl(0, 0%, 95%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
