@@ -11,7 +11,7 @@ datadogRum.init({
     // see https://docs.datadoghq.com/getting_started/site/
     site: 'us5.datadoghq.com',
     service: 'chariscode',
-    env: 'dev',
+    env: 'production',
     // Specify a version number to identify the deployed version of your application in Datadog
     // version: '1.0.0',
     sessionSampleRate: 100,
@@ -21,6 +21,8 @@ datadogRum.init({
     trackLongTasks: true,
     defaultPrivacyLevel: 'mask-user-input',
 }); 
+
+datadogRum.startSessionReplayRecording();
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
