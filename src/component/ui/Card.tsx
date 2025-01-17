@@ -13,9 +13,9 @@ interface Props {
 const Card = ({id, children,header,icons}: Props) =>{ 
   
   // const navigate = useNavigate();
-
+  
   const onClick = () => {
-    // navigate('/');
+    window.location.href = 'https://www.rolls-roycemotorcars.com/en_GB/showroom/cullinan.html';
   };
  
 
