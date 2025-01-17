@@ -3,24 +3,16 @@ import './styles.css'
 
 interface Props {
   children?: React.ReactNode;
-  redirect: 'https://www.rolls-roycemotorcars.com/en_GB/showroom/cullinan.html';
+  onClick: () => void;
+  redirect: string;
 }
 
-const Button: React.FC<Props> = ({
-  children,
-  redirect
-  
-}) => {  
+const Button: React.FC<Props> = ({children, onClick,redirect}) => {  
   const handleClick = () => {
     window.location.href = redirect; // Redirect to the provided URL
   };
-  return (
-    <button
-      onClick={handleClick}
-    >
-      {children}
-    </button>
-  );
+  return <button onClick={handleClick}> {children} </button>;
+  
 };
 
 export default Button;
