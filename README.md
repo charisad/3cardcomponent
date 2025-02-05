@@ -1,5 +1,5 @@
 # 3-column-preview-card-component-main
-## Available Scripts
+#### Available Scripts
 
 In the project directory, you can run:
 
